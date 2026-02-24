@@ -25,7 +25,7 @@ class QRifyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'QRify',
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false, 
       theme: ThemeData(
         useMaterial3: true,
         scaffoldBackgroundColor: _bg,
